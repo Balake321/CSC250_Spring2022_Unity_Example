@@ -25,6 +25,12 @@ public class roomTriggerScript : MonoBehaviour
         {
             print("Enemy Entered room " + this.gameObject.ToString());
         }
+
+        if(other.gameObject.tag.Equals("Room"))
+        {
+            this.thisRoom.setRoom(CORE.currentRoom);
+            print("Current room used: " + this.thisRoom);
+        }
     }
 
     // Update is called once per frame
