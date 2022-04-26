@@ -5,6 +5,7 @@ using UnityEngine;
 public class roomTriggerScript : MonoBehaviour
 {
     private Room thisRoom;
+    private Room currentRoom;
 
 
     // Start is called before the first frame update
@@ -18,41 +19,30 @@ public class roomTriggerScript : MonoBehaviour
         print("*************** Room trigger has started *************");
         this.thisRoom = new Room();
         CORE.addRoom(this.thisRoom);
+        this.thisRoom = currentRoom();
+        CORE.addRoom(this.thisRoom);
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag.Equals("Player"))
+        if (other.gameObject.tag.Equals("Player"))
         {
             this.thisRoom.setPlayer(CORE.getPlayer()); //lets the new room know about the player
+            Destroy(CORE.getRoom());
             print("Player now in room: " + this.thisRoom);
         }
-        else if(other.gameObject.tag.Equals("enemy"))
+        else if (other.gameObject.tag.Equals("enemy"))
         {
             this.thisRoom.setEnemy(CORE.getEnemy());
+            Destroy(CORE.getRoom());
             print("Enemy Entered room " + this.gameObject.ToString());
-        }
-
-        if(other.gameObject.tag.Equals("enemy")
-        {
-            this.thisRoon.setEnemy(CORE.getEnemy());
-            print("Enemy now in room: " + this.thisRoom);
-        }
-        else if(other.gameObject.tag.Equals("Player"))
-        {
-            print("Enemy Entered room " + this.gameObject.ToString());
-        }
-
-        if(other.gameObject.tag.Equals("Room"))
-        {
-            this.thisRoom.setRoom(CORE.currentRoom);
-            print("Current room used: " + this.thisRoom);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

@@ -85,8 +85,8 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.OSXStandalone.Extensions.dll_F110A8D744DBA30A.mvfrm","enqueuedNodeIndex":86,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":4}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.dll.mvfrm","enqueuedNodeIndex":88,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":4}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.dll.mvfrm.rsp","enqueuedNodeIndex":87,"enqueueingNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.dll.mvfrm","enqueueingNodeIndex":88}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_82008F438AD7E640.mvfrm","enqueuedNodeIndex":91,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":4}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_8223C333C21A52F5.mvfrm","enqueuedNodeIndex":92,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":4}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Plastic.Antlr3.Runtime.dll_55427C05642138B0.mvfrm","enqueuedNodeIndex":91,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":4}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Plastic.Newtonsoft.Json.dll_31B301341155E185.mvfrm","enqueuedNodeIndex":92,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":4}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.dll.mvfrm","enqueuedNodeIndex":94,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":4}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.dll.mvfrm.rsp","enqueuedNodeIndex":93,"enqueueingNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.dll.mvfrm","enqueueingNodeIndex":94}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TestRunner.ref.dll_AA3B5DF2776E59D2.mvfrm","enqueuedNodeIndex":97,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":4}
@@ -189,90 +189,6 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","enqueuedNodeIndex":153,"enqueueingNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","enqueueingNodeIndex":189}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp","enqueuedNodeIndex":152,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","enqueueingNodeIndex":153}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","enqueuedNodeIndex":190,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":4}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb","index":172,"files":["Library/ScriptAssemblies/UnityEngine.UI.pdb"],"directories":[]}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll","index":171,"files":["Library/ScriptAssemblies/UnityEngine.UI.dll"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb","index":172}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll","index":171}
-{"msg":"noderesult","processed_node_count":120,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.UI.pdb","index":172,"exitcode":0,"outputfile":"Library/ScriptAssemblies/UnityEngine.UI.pdb"}
-{"msg":"noderesult","processed_node_count":121,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.UI.dll","index":171,"exitcode":0,"outputfile":"Library/ScriptAssemblies/UnityEngine.UI.dll"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb","index":162,"files":["Library/ScriptAssemblies/UnityEngine.TestRunner.pdb"],"directories":[]}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll","index":161,"files":["Library/ScriptAssemblies/UnityEngine.TestRunner.dll"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll","index":161}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb","index":162}
-{"msg":"noderesult","processed_node_count":125,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.dll","index":161,"exitcode":0,"outputfile":"Library/ScriptAssemblies/UnityEngine.TestRunner.dll"}
-{"msg":"noderesult","processed_node_count":126,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/UnityEngine.TestRunner.pdb","index":162,"exitcode":0,"outputfile":"Library/ScriptAssemblies/UnityEngine.TestRunner.pdb"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb","index":164,"files":["Library/ScriptAssemblies/UnityEditor.TestRunner.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb","index":164}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll","index":163,"files":["Library/ScriptAssemblies/UnityEditor.TestRunner.dll"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll","index":163}
-{"msg":"noderesult","processed_node_count":130,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.dll","index":163,"exitcode":0,"outputfile":"Library/ScriptAssemblies/UnityEditor.TestRunner.dll"}
-{"msg":"noderesult","processed_node_count":131,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.TestRunner.pdb","index":164,"exitcode":0,"outputfile":"Library/ScriptAssemblies/UnityEditor.TestRunner.pdb"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.pdb","index":168,"files":["Library/ScriptAssemblies/Unity.VSCode.Editor.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.pdb","index":168}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll","index":165,"files":["Library/ScriptAssemblies/Unity.Rider.Editor.dll"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll","index":165}
-{"msg":"noderesult","processed_node_count":148,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.pdb","index":168,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.VSCode.Editor.pdb"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll","index":179,"files":["Library/ScriptAssemblies/Unity.TextMeshPro.dll"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll","index":179}
-{"msg":"noderesult","processed_node_count":150,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.dll","index":165,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.Rider.Editor.dll"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb","index":180,"files":["Library/ScriptAssemblies/Unity.TextMeshPro.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb","index":180}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb","index":166,"files":["Library/ScriptAssemblies/Unity.Rider.Editor.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb","index":166}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb","index":170,"files":["Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb","index":170}
-{"msg":"noderesult","processed_node_count":154,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.dll","index":179,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.TextMeshPro.dll"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Editor.pdb","index":178,"files":["Library/ScriptAssemblies/Unity.Services.Core.Editor.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Editor.pdb","index":178}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Editor.dll","index":177,"files":["Library/ScriptAssemblies/Unity.Services.Core.Editor.dll"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Editor.dll","index":177}
-{"msg":"noderesult","processed_node_count":156,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.pdb","index":180,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.TextMeshPro.pdb"}
-{"msg":"noderesult","processed_node_count":157,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.Rider.Editor.pdb","index":166,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.Rider.Editor.pdb"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.dll","index":167,"files":["Library/ScriptAssemblies/Unity.VSCode.Editor.dll"],"directories":[]}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll","index":169,"files":["Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.dll","index":167}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll","index":169}
-{"msg":"noderesult","processed_node_count":158,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb","index":170,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.VisualStudio.Editor.pdb"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb","index":182,"files":["Library/ScriptAssemblies/Unity.Timeline.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb","index":182}
-{"msg":"noderesult","processed_node_count":159,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Editor.dll","index":177,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.Services.Core.Editor.dll"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll","index":181,"files":["Library/ScriptAssemblies/Unity.Timeline.dll"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll","index":181}
-{"msg":"noderesult","processed_node_count":160,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.Services.Core.Editor.pdb","index":178,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.Services.Core.Editor.pdb"}
-{"msg":"noderesult","processed_node_count":161,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll","index":169,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll"}
-{"msg":"noderesult","processed_node_count":163,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.VSCode.Editor.dll","index":167,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.VSCode.Editor.dll"}
-{"msg":"noderesult","processed_node_count":165,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.dll","index":181,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.Timeline.dll"}
-{"msg":"noderesult","processed_node_count":167,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.pdb","index":182,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.Timeline.pdb"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll","index":175,"files":["Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll"],"directories":[]}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb","index":176,"files":["Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb","index":176}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll","index":175}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb","index":174,"files":["Library/ScriptAssemblies/UnityEditor.UI.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb","index":174}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll","index":173,"files":["Library/ScriptAssemblies/UnityEditor.UI.dll"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll","index":173}
-{"msg":"noderesult","processed_node_count":170,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll","index":175,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll"}
-{"msg":"noderesult","processed_node_count":171,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb","index":176,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.PlasticSCM.Editor.pdb"}
-{"msg":"noderesult","processed_node_count":172,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.UI.pdb","index":174,"exitcode":0,"outputfile":"Library/ScriptAssemblies/UnityEditor.UI.pdb"}
-{"msg":"noderesult","processed_node_count":174,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/UnityEditor.UI.dll","index":173,"exitcode":0,"outputfile":"Library/ScriptAssemblies/UnityEditor.UI.dll"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll","index":185,"files":["Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"],"directories":[]}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb","index":186,"files":["Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll","index":185}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb","index":186}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll","index":187,"files":["Library/ScriptAssemblies/Unity.Timeline.Editor.dll"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll","index":187}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb","index":188,"files":["Library/ScriptAssemblies/Unity.Timeline.Editor.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb","index":188}
-{"msg":"noderesult","processed_node_count":178,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll","index":185,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"}
-{"msg":"noderesult","processed_node_count":180,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb","index":186,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb"}
-{"msg":"noderesult","processed_node_count":181,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.dll","index":187,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"}
-{"msg":"noderesult","processed_node_count":182,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.Timeline.Editor.pdb","index":188,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.Timeline.Editor.pdb"}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll","index":183,"files":["Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll","index":183}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb","index":184,"files":["Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb","index":184}
 {"msg":"nodeRetryBuild","annotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","index":153}
 {"msg":"runNodeAction","annotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","index":153}
-{"msg":"noderesult","processed_node_count":184,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb","index":184,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb"}
-{"msg":"noderesult","processed_node_count":185,"number_of_nodes_ever_queued":190,"annotation":"CopyFiles Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll","index":183,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll"}
-{"msg":"noderesult","processed_node_count":186,"number_of_nodes_ever_queued":190,"annotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","index":153,"exitcode":1,"cmdline":"\"/Applications/Unity/Hub/Editor/2021.2.17f1/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Hub/Editor/2021.2.17f1/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp\"","rsps":["Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp"],"outputfile":"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll","stdout":"Assets/scripts/roomTriggerScript.cs(36,48): error CS1026: ) expected"}
+{"msg":"noderesult","processed_node_count":186,"number_of_nodes_ever_queued":190,"annotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)","index":153,"exitcode":1,"cmdline":"\"/Applications/Unity/Hub/Editor/2021.2.17f1/Unity.app/Contents/NetCoreRuntime/dotnet\" exec \"/Applications/Unity/Hub/Editor/2021.2.17f1/Unity.app/Contents/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp\"","rsps":["Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp"],"outputfile":"Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll","stdout":"Assets/scripts/roomTriggerScript.cs(22,25): error CS1955: Non-invocable member 'roomTriggerScript.currentRoom' cannot be used like a method."}
