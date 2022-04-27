@@ -14,7 +14,10 @@ public class CORE : MonoBehaviour
 
     public static GameObject getRoom()
     {
-        return CORE.theRoomsGos[0];
+        if (Enemy.getPreviousRoom() == CORE.theRoomsGos[0] || Player.getPreviousRoom() == CORE.theRoomsGos[0])
+        {
+            return CORE.theRoomsGos[0];
+        }
     }
 
     public static void setEnemy(Enemy e)
@@ -69,6 +72,7 @@ public class CORE : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
+

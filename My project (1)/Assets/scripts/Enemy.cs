@@ -15,4 +15,14 @@ public class Enemy
     {
         this.currentRoom = r;
     }
+
+    public Room getRoom()
+    {
+        return this.currentRoom;
+    }
+
+    public Room getPreviousRoom()
+    {
+        return this.getPreviousRoom;
+    }
 }
